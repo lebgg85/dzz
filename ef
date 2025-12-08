@@ -95,5 +95,5 @@ if isWhitelisted(player.Name) then
     print("Whitelisted: " .. player.Name)
 else
     print(player.Name .. " is not on the whitelist. Kicking...")
-    player:("You are not on the whitelist. Please contact support for assistance.")
+    player:Kick("You are not on the whitelist. Please contact support for assistance.")
 end
